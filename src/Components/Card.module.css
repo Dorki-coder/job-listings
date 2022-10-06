@@ -1,0 +1,125 @@
+@import url("../App.css");
+
+.card {
+  height: 152px;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  background-color: #ffffff;
+  padding: 32px 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  position: relative;
+}
+
+.card__featured {
+  border-left: 5px solid var(--DesaturatedDarkCyan);
+}
+
+.card__info {
+  display: flex;
+  gap: 24px;
+}
+
+.card__tags {
+  display: flex;
+  max-width: 48%;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.card__descripton {
+  display: flex;
+}
+
+.company {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 17px;
+  color: var(--DesaturatedDarkCyan);
+}
+
+.new,
+.featured {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  padding: 7px 8px;
+  border-radius: 12px;
+}
+
+.new {
+  margin-left: 10px;
+  background: var(--DesaturatedDarkCyan);
+}
+
+.featured {
+  margin-left: 8px;
+  background-color: var(--VeryDarkGrayishCyan);
+}
+
+.position {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  margin-top: 14px;
+  margin-bottom: 7px;
+  color: var(--VeryDarkGrayishCyan);
+}
+
+.terms {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  gap: 16px;
+  color: #7c8f8f;
+}
+
+.oval {
+  color: #b7c4c4;
+}
+
+.tag {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--DesaturatedDarkCyan);
+  background-color: rgba(91, 164, 164, 0.1);
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 7px 3px 9px;
+}
+
+.tag:hover {
+  transition: 0.3s;
+  background-color: rgba(91, 164, 164, 1);
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1170px) {
+  .terms {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .logo {
+    position: absolute;
+    width: 48px;
+    top: -24px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .card {
+    height: 257px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card__tags {
+    max-width: 100%;
+  }
+}
