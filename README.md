@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub/joblistings-with-reactjs-2zRKXwh3R-](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub/joblistings-with-reactjs-2zRKXwh3R-)
+- Live Site URL: [https://dorki-coder.github.io/job-listings/](https://dorki-coder.github.io/job-listings/)
 
 ## My process
 
