@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub/joblistings-with-reactjs-2zRKXwh3R-](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt/hub/joblistings-with-reactjs-2zRKXwh3R-)
+- Solution URL: [https://www.frontendmentor.io/solutions/joblistings-with-reactjs-2zRKXwh3R-](https://www.frontendmentor.io/solutions/joblistings-with-reactjs-2zRKXwh3R-)
 - Live Site URL: [https://dorki-coder.github.io/job-listings/](https://dorki-coder.github.io/job-listings/)
 
 ## My process
